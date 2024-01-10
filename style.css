@@ -1,3 +1,4 @@
+/* Global style */
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -6,12 +7,14 @@ body {
   overflow: hidden;
 }
 
+/* Main container style */
 .main {
   display: flex;
   height: 100vh;
   padding: 0.5rem;
 }
 
+/* Sidebar style */
 .sidebar {
   background-color: black;
   border-radius: 1rem;
@@ -19,6 +22,7 @@ body {
   margin-right: 0.5rem;
 }
 
+/* Main content style */
 .main-cont {
   background-color: #121212;
   border-radius: 1rem;
@@ -27,6 +31,7 @@ body {
   padding: 0 1.5rem 0 1.5rem;
 }
 
+/* Music player style */
 .music-player {
   background-color: black;
   position: fixed;
@@ -35,6 +40,7 @@ body {
   height: 75px;
 }
 
+/* Navigation style */
 a {
   text-decoration: none;
   color: white;
@@ -58,6 +64,8 @@ a {
 .low:hover {
   opacity: 1;
 }
+
+/* Navigation option style */
 .nav-option {
   line-height: 2.5rem;
 }
@@ -72,6 +80,7 @@ a {
   margin-left: 1rem;
 }
 
+/* Library style */
 .library {
   background-color: #121212;
   border-radius: 1rem;
@@ -97,6 +106,7 @@ a {
   font-size: 1.25rem;
 }
 
+/* Box style */
 .box {
   background-color: #343434;
   border-radius: 1rem;
@@ -121,6 +131,7 @@ a {
   opacity: 0.75;
 }
 
+/* Badge style */
 .badge {
   background-color: white;
   border: none;
@@ -133,6 +144,7 @@ a {
   transition: 0.25s;
 }
 
+/* Hover effect style */
 .big-hov {
   transition: 0.5s;
 }
@@ -149,6 +161,7 @@ a {
   transform: scale(0.95);
 }
 
+/* Sticky navigation style */
 .sticky-nav {
   position: sticky;
   top: 0;
@@ -168,10 +181,12 @@ a {
   align-items: center;
   margin-right: 1rem;
 }
+
 .sticky-nav-button button {
   margin-left: 1rem;
 }
 
+/* Sticky navigation icon style */
 .sticky-nav-icon {
   margin-left: 1rem;
   display: flex;
@@ -186,12 +201,14 @@ a {
   font-size: 1.5rem;
 }
 
+/* Hide on small screens */
 @media (max-width: 1000px) {
   .hide {
     display: none;
   }
 }
 
+/* Card style */
 .card {
   background-color: #343434;
   width: 150px;
@@ -206,11 +223,13 @@ a {
   background-color: #232323;
 }
 
+/* Card container style */
 .card-cont {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Card image style */
 .card-img {
   width: 100%;
   border-radius: 1rem;
@@ -221,15 +240,18 @@ a {
   transform: scale(0.95);
 }
 
+/* Card title style */
 .card-title {
   font-weight: 700;
 }
 
+/* Card info style */
 .card-info {
   opacity: 0.5;
   font-size: 0.85rem;
 }
 
+/* Footer style */
 .footer {
   height: 300px;
   display: flex;
@@ -237,6 +259,7 @@ a {
   justify-self: center;
 }
 
+/* Line style */
 .line {
   width: 100%;
   height: 10%;
@@ -244,26 +267,31 @@ a {
   opacity: 0.4;
 }
 
+/* Music player container style */
 .music-player {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Album style */
 .album {
   width: 25%;
   background-color: black;
 }
 
+/* Player style */
 .player {
   width: 50%;
 }
 
+/* Controls style */
 .controls {
   width: 25%;
   background-color: black;
 }
 
+/* Player controls container style */
 .player-controls {
   display: flex;
   justify-content: center;
@@ -271,6 +299,7 @@ a {
   transform: scale(0.85);
 }
 
+/* Player control icon style */
 .player-control-icon {
   width: 1rem;
   margin-right: 2rem;
@@ -282,12 +311,14 @@ a {
   transform: scale(1.1);
 }
 
+/* Playback bar container style */
 .playback-bar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Progress bar style */
 .progress-bar {
   width: 70%;
   appearance: none;
@@ -310,12 +341,14 @@ a {
   margin-top: -5px;
 }
 
+/* Album container style */
 .album {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* Album image style */
 .album img {
   margin-left: 1rem;
   height: 3.5rem;
@@ -323,6 +356,7 @@ a {
   border-radius: 0.3rem;
 }
 
+/* Album title style */
 .album-title {
   font-size: 0.8rem;
   font-weight: 500;
@@ -331,6 +365,7 @@ a {
   left: 6rem;
 }
 
+/* Album info style */
 .album-info {
   font-size: 0.6rem;
   opacity: 0.5;
@@ -339,17 +374,20 @@ a {
   left: 6rem;
 }
 
+/* Like style */
 .like {
   font-size: 1rem;
   justify-content: center;
 }
 
+/* Controls container style */
 .controls {
   display: flex;
   justify-content: space-evenly;
   margin: 1rem;
 }
 
+/* Controls image style */
 .controls img {
   height: 3.5rem;
   opacity: 0.5;
@@ -360,6 +398,7 @@ a {
   opacity: 1;
 }
 
+/* Volume slider style */
 .volume::-webkit-slider-runnable-track {
   background-color: #ddd;
   border-radius: 100px;
@@ -391,4 +430,31 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(173, 173, 173, 0.8);
+}
+
+/* Responsive style for medium screens */
+@media (max-width: 800px) {
+  .sidebar {
+    width: 250px;
+  }
+}
+
+/* Responsive style for small screens */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-cont {
+    flex: 1 0;
+    padding: 0 1rem;
+  }
+
+  .sticky-nav {
+    padding: 0.5rem;
+  }
+
+  .sticky-nav-button button {
+    margin-left: 0.5rem;
+  }
 }
